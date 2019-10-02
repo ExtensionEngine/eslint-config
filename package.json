@@ -1,0 +1,72 @@
+{
+  "name": "eslint-config-extensionengine",
+  "version": "1.0.0",
+  "description": "Extension Engine's eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExtensionEngine/eslint-config-extensionengine.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "Extension Engine",
+    "javascript",
+    "vue",
+    "node"
+  ],
+  "author": "Zdravko Ćurić (https://github.com/zcuric)",
+  "contributors": [
+    {
+      "name": "Dario Vladović",
+      "url": "https://github.com/vladimyr"
+    },
+    {
+      "name": "Damir Perišić",
+      "url": "https://github.com/underscope"
+    },
+    {
+      "name": "Luka Šarić",
+      "url": "https://github.com/lukasaric"
+    },
+    {
+      "name": "Toma Zelić",
+      "url": "https://github.com/kronicker"
+    },
+    {
+      "name": "Zdravko Ćurić",
+      "url": "https://github.com/zcuric"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/eslint-config-extensionengine/issues"
+  },
+  "homepage": "https://github.com/ExtensionEngine/eslint-config-extensionengine#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">= 10",
+    "eslint": ">= 6",
+    "eslint-config-semistandard": ">= 15",
+    "eslint-config-standard": ">= 14",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-node": ">= 10",
+    "eslint-plugin-promise": ">= 4",
+    "eslint-plugin-standard": ">= 4",
+    "eslint-plugin-vue": ">= 5"
+  }
+}
