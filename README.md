@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="#">
-    <img width="150"src="https://extensionengine.com/wp-content/uploads/2019/05/ee-logo_vector_white.svg">
+    <img width="150" src="https://extensionengine.com/wp-content/uploads/2019/05/ee-logo_vector_white.svg" style="filter: invert(100);">
   </a>
 </p>
 
