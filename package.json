@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-extensionengine",
   "version": "1.0.0",
-  "description": "Extension Engine's eslint config",
+  "description": "ExtensionEngine's eslint config",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "eslint",
     "eslintconfig",
     "config",
-    "Extension Engine",
+    "ExtensionEngine",
     "javascript",
     "vue",
     "node"
@@ -27,7 +27,9 @@
   "homepage": "https://github.com/ExtensionEngine/eslint-config-extensionengine#readme",
   "devDependencies": {
     "@types/eslint": "^6.1.2",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
+    "eslint-config-semistandard": "^15.0.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
@@ -37,6 +39,7 @@
   },
   "peerDependencies": {
     "eslint": ">= 6",
+    "eslint-config-semistandard": ">= 15",
     "eslint-config-standard": ">= 14",
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-node": ">= 10",

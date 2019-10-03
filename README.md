@@ -5,7 +5,7 @@
 </p>
 
 # eslint-config-extensionengine
-Extension Engine's eslint config
+ExtensionEngine's eslint config
 
 ## Usage
 
@@ -18,17 +18,15 @@ npx install-peerdeps --dev eslint-config-extensionengine
 ```
 or the classic way:
 ```
-npm install --save-dev eslint-config-extensionengine eslint babel-eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue eslint-config-semistandard eslint-config-standard
+npm install --save-dev eslint eslint-config-extensionengine eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue eslint-config-standard
 ```
 
-### Using eslint-config-extensionengine in your project
+### Using `eslint-config-extensionengine` in your project
 In your local `.eslintrc.*` extend this configuration
 
 ```js
 module.exports = {
-  extends: [
-    "extensionengine"
-  ]
+  extends: "extensionengine"
 }
 ```
 

@@ -13,7 +13,7 @@ module.exports = {
   }],
   extends: [
     'semistandard',
-    './rules/style.js',
-    './rules/vue.js'
+    './rules/base',
+    './rules/vue'
   ]
 };

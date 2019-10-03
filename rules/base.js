@@ -1,6 +1,6 @@
 'use strict';
 
-const isDev = process.env.NODE_ENV === 'development';
+const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
@@ -11,12 +11,8 @@ module.exports = {
       MemberExpression: 'off'
     }],
     'arrow-parens': ['error', 'as-needed'],
-    'prefer-const': 'on',
-    'comma-dangle': ['warn', 'never'],
-    'no-debugger': isDev ? 'warn' : 'error',
-    'no-unreachable': isDev ? 'warn' : 'error',
-    semi: [2, 'always'],
-    'no-extra-semi': 2,
+    'no-debugger': isProduction ? 'error' : 'warn',
+    'no-unreachable': isProduction ? 'error' : 'warn',
     'space-before-function-paren': ['error', {
       anonymous: 'always',
       named: 'never'
