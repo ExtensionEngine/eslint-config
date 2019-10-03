@@ -8,6 +8,7 @@ module.exports = {
   overrides: [{
     files: ['client/**'],
     parserOptions: {
+      parser: 'babel-eslint',
       sourceType: 'module'
     }
   }],
