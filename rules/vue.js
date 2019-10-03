@@ -1,6 +1,9 @@
+'use strict';
+
+/** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
   extends: 'plugin:vue/recommended',
-  plugins: ['vue'],
+  plugins: ['vue', 'vue-a11y'],
   rules: {
     'vue/html-self-closing': ['error', {
       html: {
@@ -21,7 +24,6 @@ module.exports = {
       multiline: 4
     }],
     'vue/name-property-casing': ['error', 'kebab-case'],
-    // TODO: Add order for custom directives once supported
     'vue/attributes-order': ['error', {
       order: [
         'DEFINITION',

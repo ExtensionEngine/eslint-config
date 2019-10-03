@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ExtensionEngine/eslint-config-extensionengine#readme",
   "devDependencies": {
+    "@types/eslint": "^6.1.2",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
     "eslint-config-semistandard": "^15.0.0",
@@ -34,7 +35,8 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-vue": "^5.2.3",
+    "eslint-plugin-vue-a11y": "0.0.31"
   },
   "peerDependencies": {
     "babel-eslint": ">= 10",
@@ -45,6 +47,7 @@
     "eslint-plugin-node": ">= 10",
     "eslint-plugin-promise": ">= 4",
     "eslint-plugin-standard": ">= 4",
-    "eslint-plugin-vue": ">= 5"
+    "eslint-plugin-vue": ">= 5",
+    "eslint-plugin-vue-a11y": ">= 0"
   }
 }

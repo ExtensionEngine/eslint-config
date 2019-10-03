@@ -1,7 +1,11 @@
+'use strict';
+
 const isDev = process.env.NODE_ENV === 'development';
 
+/** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
   rules: {
+    strict: ['error', 'safe'],
     indent: ['error', 2, {
       SwitchCase: 1,
       // NOTE: Consistent indentation IS enforced;

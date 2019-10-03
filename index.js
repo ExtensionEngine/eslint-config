@@ -1,11 +1,16 @@
 'use strict';
 
+/** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
   parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module'
+    sourceType: 'script'
   },
-  // https://github.com/Flet/eslint-config-semistandard
+  overrides: [{
+    files: ['client/**'],
+    parserOptions: {
+      sourceType: 'module'
+    }
+  }],
   extends: [
     'semistandard',
     './rules/style.js',
