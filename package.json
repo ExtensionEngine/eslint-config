@@ -19,30 +19,8 @@
     "vue",
     "node"
   ],
-  "author": "Zdravko Ćurić (https://github.com/zcuric)",
-  "contributors": [
-    {
-      "name": "Dario Vladović",
-      "url": "https://github.com/vladimyr"
-    },
-    {
-      "name": "Damir Perišić",
-      "url": "https://github.com/underscope"
-    },
-    {
-      "name": "Luka Šarić",
-      "url": "https://github.com/lukasaric"
-    },
-    {
-      "name": "Toma Zelić",
-      "url": "https://github.com/kronicker"
-    },
-    {
-      "name": "Zdravko Ćurić",
-      "url": "https://github.com/zcuric"
-    }
-  ],
-  "license": "ISC",
+  "author": "ExtensionEngine <info@extensionengine.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ExtensionEngine/eslint-config-extensionengine/issues"
   },
