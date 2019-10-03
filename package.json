@@ -27,7 +27,6 @@
   "homepage": "https://github.com/ExtensionEngine/eslint-config-extensionengine#readme",
   "devDependencies": {
     "@types/eslint": "^6.1.2",
-    "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
@@ -37,7 +36,6 @@
     "eslint-plugin-vue": "^5.2.3"
   },
   "peerDependencies": {
-    "babel-eslint": ">= 10",
     "eslint": ">= 6",
     "eslint-config-standard": ">= 14",
     "eslint-plugin-import": ">= 2",
