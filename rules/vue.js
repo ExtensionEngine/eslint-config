@@ -3,7 +3,7 @@
 /** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
   extends: 'plugin:vue/recommended',
-  plugins: ['vue', 'vue-a11y'],
+  plugins: ['vue'],
   rules: {
     'vue/html-self-closing': ['error', {
       html: {

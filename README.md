@@ -29,4 +29,7 @@ module.exports = {
   extends: [
     "extensionengine"
   ]
+}
 ```
+
+Check [ESlint documentation](https://eslint.org/docs/rules/) for rules explanation. 

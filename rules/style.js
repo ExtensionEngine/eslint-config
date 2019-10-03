@@ -8,17 +8,15 @@ module.exports = {
     strict: ['error', 'safe'],
     indent: ['error', 2, {
       SwitchCase: 1,
-      // NOTE: Consistent indentation IS enforced;
-      //       ESLint calculated indentation start IS NOT!
-      // https://eslint.org/docs/rules/indent#memberexpression
       MemberExpression: 'off'
     }],
     'arrow-parens': ['error', 'as-needed'],
-    // TODO: Remove this after all error reports get resolved!
-    'prefer-const': 'off',
+    'prefer-const': 'on',
     'comma-dangle': ['warn', 'never'],
     'no-debugger': isDev ? 'warn' : 'error',
     'no-unreachable': isDev ? 'warn' : 'error',
+    semi: [2, 'always'],
+    'no-extra-semi': 2,
     'space-before-function-paren': ['error', {
       anonymous: 'always',
       named: 'never'
