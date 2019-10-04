@@ -5,8 +5,9 @@
 </p>
 
 # @extensionengine/eslint-config
+[![npm package version](https://badgen.net/npm/v/@extensionengine/eslint-config)](https://npm.im/@extensionengine/eslint-config) [![github license](https://badgen.net/github/license/extensionengine/eslint-config)](https://github.com/extensionengine/eslint-config/blob/master/LICENSE)
 
-ExtensionEngine's eslint config
+Extension Engine's eslint config
 
 ## Usage
 

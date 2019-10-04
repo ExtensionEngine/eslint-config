@@ -4,7 +4,7 @@
   },
   "name": "@extensionengine/eslint-config",
   "version": "1.0.0",
-  "description": "ExtensionEngine's eslint config",
+  "description": "Extension Engine's eslint config",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -18,13 +18,13 @@
     "eslint",
     "eslint config",
     "config",
-    "ExtensionEngine",
+    "Extension Engine",
     "javascript",
     "vue",
     "node"
   ],
   "author": {
-    "name": "ExtensionEngine",
+    "name": "Extension Engine",
     "email": "info@extensionengine.com",
     "url": "https://extensionengine.com"
   },
