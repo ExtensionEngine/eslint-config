@@ -30,6 +30,7 @@ In your local `.eslintrc.*` extend this configuration
 'use strict';
 
 module.exports = {
+  root: true,
   extends: '@extensionengine'
 };
 ```
