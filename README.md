@@ -24,6 +24,10 @@ This is default configuration supporting both server & Vue powered client codeba
 
 This is base configuration without Vue specific rules.
 
+### @extensionengine/eslint-config/typescript
+
+This is base configuration with typescript support.
+
 ### Install
 
 Use `install-peerdeps`
@@ -59,6 +63,17 @@ If you don't need Vue you can use base configuration:
 module.exports = {
   root: true,
   extends: '@extensionengine/eslint-config/base'
+};
+```
+
+If you need typescript you can use typescript configuration:
+
+```js
+'use strict';
+
+module.exports = {
+  root: true,
+  extends: '@extensionengine/eslint-config/typescript'
 };
 ```
 

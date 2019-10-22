@@ -35,6 +35,8 @@
   "homepage": "https://github.com/ExtensionEngine/eslint-config#readme",
   "devDependencies": {
     "@types/eslint": "^6.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
     "eslint-config-semistandard": "^15.0.0",
@@ -43,7 +45,8 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-vue": "^5.2.3",
+    "typescript": "^3.6.4"
   },
   "peerDependencies": {
     "babel-eslint": ">=10.0.3",
