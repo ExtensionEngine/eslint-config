@@ -58,7 +58,7 @@ If you don't need Vue you can use base configuration:
 
 module.exports = {
   root: true,
-  extends: '@extensionengine/base'
+  extends: '@extensionengine/eslint-config/base'
 };
 ```
 
