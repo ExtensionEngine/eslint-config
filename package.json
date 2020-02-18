@@ -3,7 +3,7 @@
     "access": "public"
   },
   "name": "@extensionengine/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Extension Engine's eslint config",
   "main": "index.js",
   "repository": {
