@@ -35,7 +35,7 @@ npx install-peerdeps --dev @extensionengine/eslint-config
 or the classic way:
 
 ```
-npm install --save-dev eslint @extensionengine/eslint-config babel-eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue eslint-config-standard eslint-config-semistandard
+npm install --save-dev eslint @extensionengine/eslint-config babel-eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-require-sort eslint-plugin-standard eslint-plugin-vue eslint-config-standard eslint-config-semistandard
 ```
 
 ### Using `@extensionengine/eslint-config` in your project
