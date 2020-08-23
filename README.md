@@ -7,6 +7,7 @@
 # @extensionengine/eslint-config
 
 [![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/eslint-config/master?icon)](https://circleci.com/gh/ExtensionEngine/eslint-config)
+[![install size](https://badgen.net/packagephobia/install/@extensionengine/eslint-config)](https://packagephobia.now.sh/result?p=@extensionengine/eslint-config)
 [![npm package version](https://badgen.net/npm/v/@extensionengine/eslint-config)](https://npm.im/@extensionengine/eslint-config)
 [![github license](https://badgen.net/github/license/ExtensionEngine/eslint-config)](https://github.com/ExtensionEngine/eslint-config/blob/master/LICENSE)
 
