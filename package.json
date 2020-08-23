@@ -1,19 +1,7 @@
 {
-  "publishConfig": {
-    "access": "public"
-  },
   "name": "@extensionengine/eslint-config",
   "version": "1.2.0",
   "description": "Extension Engine's eslint config",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ExtensionEngine/eslint-config.git"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "release": "npx np"
-  },
   "keywords": [
     "eslint",
     "eslint config",
@@ -23,16 +11,29 @@
     "vue",
     "node"
   ],
+  "homepage": "https://github.com/ExtensionEngine/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExtensionEngine/eslint-config.git"
+  },
+  "license": "MIT",
   "author": {
     "name": "Extension Engine",
     "email": "info@extensionengine.com",
     "url": "https://extensionengine.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ExtensionEngine/eslint-config/issues"
+  "main": "index.js",
+  "files": [
+    "rules",
+    "base.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "release": "npx np"
   },
-  "homepage": "https://github.com/ExtensionEngine/eslint-config#readme",
   "devDependencies": {
     "@types/eslint": "^7.2.1",
     "babel-eslint": "^10.1.0",
@@ -60,8 +61,7 @@
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": ">=5.2.3"
   },
-  "files": [
-    "rules",
-    "base.js"
-  ]
+  "publishConfig": {
+    "access": "public"
+  }
 }
