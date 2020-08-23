@@ -8,7 +8,7 @@
 
 [![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/eslint-config/master?icon)](https://circleci.com/gh/ExtensionEngine/eslint-config)
 [![npm package version](https://badgen.net/npm/v/@extensionengine/eslint-config)](https://npm.im/@extensionengine/eslint-config)
-[![github license](https://badgen.net/github/license/extensionengine/eslint-config)](https://github.com/extensionengine/eslint-config/blob/master/LICENSE)
+[![github license](https://badgen.net/github/license/ExtensionEngine/eslint-config)](https://github.com/ExtensionEngine/eslint-config/blob/master/LICENSE)
 
 This package provides Extension Engine's extensible ESLint config.
 
