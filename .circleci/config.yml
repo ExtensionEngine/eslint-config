@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:lts-browsers
+      - image: circleci/node:lts
 
     working_directory: ~/eslint-config-extensionengine
 
