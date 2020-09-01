@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
-  plugins: ['require-sort', 'sort-imports-es6-autofix'],
+  plugins: ['require-sort'],
   rules: {
     strict: ['error', 'safe'],
     indent: ['error', 2, {
@@ -18,7 +18,7 @@ module.exports = {
       anonymous: 'always',
       named: 'never'
     }],
-    'sort-imports-es6-autofix/sort-imports-es6': ['error', {
+    'sort-imports': ['error', {
       ignoreCase: true
     }],
     'require-sort/require-sort': ['error', {
