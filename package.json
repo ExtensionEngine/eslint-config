@@ -49,14 +49,15 @@
     "eslint-plugin-vue": "^6.2.2"
   },
   "peerDependencies": {
-    "babel-eslint": ">=10.0.3",
-    "eslint": ">=6.5.1",
+    "@babel/eslint-parser": ">=7.11.5",
+    "@babel/eslint-plugin": ">=7.11.5",
+    "eslint": ">=7.8.0",
     "eslint-config-semistandard": ">=15.0.0",
     "eslint-config-standard": ">=14.1.0",
-    "eslint-plugin-import": ">=2.18.2",
-    "eslint-plugin-node": ">=10.0.0",
+    "eslint-plugin-import": ">=2.22.0",
+    "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-promise": ">=4.2.1",
-    "eslint-plugin-require-sort": ">=1.1.0",
+    "eslint-plugin-require-sort": ">=1.2.2",
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": ">=5.2.3"
   },
