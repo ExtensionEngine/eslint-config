@@ -5,10 +5,11 @@ module.exports = {
   parserOptions: {
     sourceType: 'script'
   },
+  plugins: ['@babel'],
   overrides: [{
     files: ['client/**'],
     parserOptions: {
-      parser: 'babel-eslint',
+      parser: '@babel/eslint-parser',
       sourceType: 'module'
     }
   }],
