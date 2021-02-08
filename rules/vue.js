@@ -58,6 +58,7 @@ module.exports = {
         ['directives', 'filters'],
         'components'
       ]
-    }]
+    }],
+    'vue/component-definition-name-casing': ['error', 'kebab-case']
   }
 };
