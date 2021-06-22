@@ -45,7 +45,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-require-sort": "^1.2.2",
-    "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-vue": "^6.2.2"
   },
   "peerDependencies": {
@@ -58,7 +57,6 @@
     "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-promise": ">=5.1.0",
     "eslint-plugin-require-sort": ">=1.2.2",
-    "eslint-plugin-standard": ">=5.0.0",
     "eslint-plugin-vue": ">=5.2.3"
   },
   "publishConfig": {
