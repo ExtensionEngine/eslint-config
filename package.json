@@ -57,7 +57,7 @@
     "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-promise": ">=5.1.0",
     "eslint-plugin-require-sort": ">=1.2.2",
-    "eslint-plugin-vue": ">=5.2.3"
+    "eslint-plugin-vue": ">=6.2.2"
   },
   "publishConfig": {
     "access": "public"
