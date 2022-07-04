@@ -23,7 +23,6 @@ module.exports = {
       singleline: 5,
       multiline: 4
     }],
-    'vue/name-property-casing': ['error', 'kebab-case'],
     'vue/attributes-order': ['error', {
       order: [
         'DEFINITION',
