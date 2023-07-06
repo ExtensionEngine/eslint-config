@@ -19,6 +19,7 @@ module.exports = {
       multiline: 'never'
     }],
     'vue/singleline-html-element-content-newline': 'off',
+    'vue/multi-word-component-names': 'off',
     'vue/max-attributes-per-line': ['error', {
       singleline: 5,
       multiline: 4
