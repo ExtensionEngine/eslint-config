@@ -1,6 +1,6 @@
 {
   "name": "@extensionengine/eslint-config",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Extension Engine's eslint config",
   "keywords": [
     "eslint",
@@ -32,32 +32,33 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "release": "npx np"
+    "release": "npx np",
+    "test": ""
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.14.7",
-    "@babel/eslint-plugin": "^7.14.5",
-    "@types/eslint": "^7.2.13",
-    "eslint": "^7.29.0",
-    "eslint-config-semistandard": "^16.0.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "@babel/eslint-parser": "^7.22.6",
+    "@babel/eslint-plugin": "^7.22.5",
+    "@types/eslint": "^8.40.2",
+    "eslint": "^8.44.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-require-sort": "^1.2.2",
-    "eslint-plugin-vue": "^6.2.2"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-require-sort": "^1.3.0",
+    "eslint-plugin-vue": "^9.15.1"
   },
   "peerDependencies": {
-    "@babel/eslint-parser": ">=7.14.7",
-    "@babel/eslint-plugin": ">=7.14.5",
-    "eslint": ">=7.29.0",
-    "eslint-config-semistandard": ">=16.0.0",
-    "eslint-config-standard": ">=16.0.3",
-    "eslint-plugin-import": ">=2.23.4",
+    "@babel/eslint-parser": ">=7.22.6",
+    "@babel/eslint-plugin": ">=7.22.5",
+    "eslint": ">=8.44.0",
+    "eslint-config-semistandard": ">=7.0.0",
+    "eslint-config-standard": ">=17.1.0",
+    "eslint-plugin-import": ">=2.27.5",
     "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-promise": ">=5.1.0",
-    "eslint-plugin-require-sort": ">=1.2.2",
-    "eslint-plugin-vue": ">=6.2.2"
+    "eslint-plugin-promise": ">=6.1.1",
+    "eslint-plugin-require-sort": ">=1.3.0",
+    "eslint-plugin-vue": ">=9.15.1"
   },
   "publishConfig": {
     "access": "public"
