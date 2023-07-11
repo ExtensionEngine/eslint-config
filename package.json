@@ -1,6 +1,6 @@
 {
   "name": "@extensionengine/eslint-config",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Extension Engine's ESLint config",
   "keywords": [
     "eslint",
